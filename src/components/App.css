@@ -1,0 +1,27 @@
+/* legend css */
+.leaflet-control.legend {
+  background: white;
+  padding: 6px 8px;
+  font: 14px Arial, sans-serif;
+  line-height: 18px;
+  color: #555;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.leaflet-control.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+/* Styles the custom state name labels on the map */
+
+.state-label {
+  font-size: 10px;
+  color: black;
+  pointer-events: none;
+  text-align: center;
+}
